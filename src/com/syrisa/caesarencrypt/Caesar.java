@@ -9,5 +9,5 @@ public interface Caesar {
 
     String unnecessaryCharacterRemove(String sentence);
 
-    String convertTurkishAlphabetsToLatinAlphabet(String message);
+    String convertTurkishAlphabetsToLatinAlphabet(String sentence);
 }
