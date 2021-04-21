@@ -17,4 +17,17 @@ public class CaesarEncryption implements Caesar {
         }
         return null;
     }
+
+    SentenceEncrypt sentenceEncrypt = sentence -> {
+        StringBuilder encryptedSentence = new StringBuilder();
+        System.out.println("Sentence to Encrypt : " + sentence);
+        for (int i = 0; i < sentence.length(); i++) {
+            if (String.valueOf(sentence.charAt(i)).matches("[a-z&&[^xyz]]"))
+                encryptedSentence.append((char) (int) (sentence.charAt(i) + 3));
+            else if (String.valueOf(sentence.charAt(i)).matches("x")) encryptedSentence.append("a");
+            else if (String.valueOf(sentence.charAt(i)).matches("y")) encryptedSentence.append("b");
+            else if (String.valueOf(sentence.charAt(i)).matches("z")) encryptedSentence.append("z");
+        }
+        return String.valueOf(encryptedSentence);
+    };
 }
