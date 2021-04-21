@@ -12,6 +12,9 @@ public class CaesarEncryption implements Caesar {
 
     @Override
     public String convertTurkishAlphabetsToLatinAlphabet(String sentence) {
+        for (int i = 0; i < latinAlphabet.length; i++) {
+            sentence = sentence.replace(turkishAlphabet[i], latinAlphabet[i]);
+        }
         return null;
     }
 }
