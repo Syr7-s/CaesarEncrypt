@@ -13,7 +13,7 @@ public class CaesarEncryption implements Caesar {
     }
 
     @Override
-    public String convertTurkishAlphabetsToLatinAlphabet(String message) {
+    public String convertTurkishAlphabetsToLatinAlphabet(String sentence) {
         return null;
     }
 }
