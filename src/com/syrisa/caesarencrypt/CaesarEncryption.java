@@ -1,7 +1,5 @@
 package com.syrisa.caesarencrypt;
 
-import java.util.Locale;
-
 public class CaesarEncryption implements Caesar {
     private int sentenceLength;
     private char[] turkishAlphabet = {'ğ', 'ı', 'ü', 'ö', 'ç', 'ş'};
