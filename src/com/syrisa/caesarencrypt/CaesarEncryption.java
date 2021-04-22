@@ -1,8 +1,8 @@
 package com.syrisa.caesarencrypt;
 
 public class CaesarEncryption implements Caesar {
-    private char[] turkishAlphabet = {'ğ', 'ı', 'ü', 'ö', 'ç', 'ş'};
-    private char[] latinAlphabet = {'g', 'i', 'u', 'o', 'c', 's'};
+    private char[] turkishAlphabet = {'ğ', 'ı', 'ü', 'ö', 'ç', 'ş', 'Ğ', 'Ü', 'Ö', 'Ç', 'Ş'};
+    private char[] latinAlphabet = {'g', 'i', 'u', 'o', 'c', 's', 'G', 'U', 'O', 'C', 'S'};
 
     @Override
     public String unnecessaryCharacterRemove(String sentence) {
