@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CaesarEncrypt:jar">
+    <output-path>$PROJECT_DIR$/out/production/CaesarEncrypt/com/syrisa/caesarencrypt</output-path>
+    <root id="archive" name="CaesarEncrypt.jar">
+      <element id="module-output" name="CaesarEncrypt" />
+    </root>
+  </artifact>
+</component>
