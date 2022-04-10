@@ -1,0 +1,4 @@
+FROM openjdk:jdk-alpine
+MAINTAINER ISA SAYAR <isa.sayar1725@gmail.com>
+ADD dist/lib/caesarencrypt.jar app.jar
+CMD ["java","-jar","app.jar"]
